@@ -420,7 +420,7 @@ E=M;
 % to ensure it is within the 0 degree - 360 degrees
 E= rem(E+2*pi,2*pi);
 
-%Step4. Calculate the true anomaly £c (in radian)
+%Step4. Calculate the true anomaly Â£c (in radian)
 theta = atan2 ( (sin(E)*sqrt(1-e^2)), (cos(E)-e) ); 
 
 % Step5.Calculate the orbit radius r
